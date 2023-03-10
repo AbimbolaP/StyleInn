@@ -1,0 +1,150 @@
+@import '../../index.css';
+.main{
+    height: 100%;
+    width:100vw;
+    background: var(--primary-0);
+    overflow-x: break-word;
+}
+.big_text{
+    position: absolute;
+    width: 652px;
+    height: 195px;
+    left: 82px;
+    top: 365px;
+    z-index: 1;
+    }
+.intro_text {
+    position: absolute;
+    width: 628px;
+    height: 84px;
+    left: 82px;
+    top: 580px;
+    z-index: 1;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.intro_quiz_btn {
+    position: absolute;
+    width: 171px;
+    height: 48px;
+    left: 82px;
+    top: 704px;
+    background-color: var(--primary-900);
+    border: none;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--primary-0);
+    border-radius: 4px;
+}
+.heroimage {
+    position: absolute;
+    width: 50em;
+    height: 775px;
+    left: 550px;
+    top: 150px;
+    object-fit: contain;
+    opacity: 0.5;
+}
+.standout_text {
+    color: var(--primary-900);
+}
+.aboutsection {   
+    position: absolute;
+    width: 1524px;
+    height: 600px;
+    left: -6px;
+    top: 994px;
+    gap:116px;
+    background-color: #FFFFFF;
+}
+.about {
+    position: absolute;
+    width: 515px;
+    height: 380px;
+    left: 82px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 14px;
+    top: 140px;
+
+}
+.about_heading {
+    color: var(--primary-900);
+}
+.heading_text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+}
+.about_text {
+    position: absolute;    
+    width: 500px;
+    height: 421px;
+    left: 650px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 79px;
+    row-gap: 30px;
+    top: 120px;
+}
+.abouts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 14px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    width:266px;
+}
+.about_headings {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    color: var(--primary-900);
+}
+    
+.product_collection {
+    position:absolute;
+    left: 80px;
+    top: 1758px;
+}
+.topbrands {
+    position: absolute;
+    width: 1512px;
+    height: 806px;
+    left: 0px;
+    top: 2924px;
+}
+.brands {
+    position: absolute;
+    display: flex;
+    justify-items: space-between;
+    }
+.brandcard {
+    box-sizing: border-box;
+    width: 193px;
+    height: 141px;
+    top: 3060px;
+    border: 1px solid #FDD5C5;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 4px;
+    }
+.brandnote {
+    width: 170.78px;
+    height: 25.47px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+}
+
+

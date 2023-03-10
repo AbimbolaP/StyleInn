@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap');
+
+:root {
+   /* Primary colors */
+   --primary-0:    #FFF8F5;
+   --primary-100:  #FDD5C5;
+   --primary-200:  #F9B398;
+   --primary-300:  #F29570;
+   --primary-400:  #E97C50;
+   --primary-500:  #DD6738;
+   --primary-600:  #CD5627;
+   --primary-700:  #B8471B;
+   --primary-800:  #A03B13;
+   --primary-900:  #87300E;
+
+   /* text-colors */
+   --grey-50:   #E9E8E8;
+   --grey-100:  #B9B9B8;
+   --grey-200:  #989796;
+   --grey-300:  #686766;
+   --grey-400:  #4B4949;
+   --grey-500:  #1E1C1B;
+   --grey-600:  #1B1919;
+   --grey-700:  #151413;
+   --grey-800:  #110F0F;
+   --grey-900:  #0D0C0B;
+ }
+
+
+ * {
+    margin: 0;
+    padding: 0;
+ }
+
+body {
+   min-height: 100vh;
+   width:100%;
+   font-family: 'Nunito Sans';
+   font-style: normal;
+   background-color: var(--primary-0);
+}
+h1, h2, h3, h4, h5, h6 {
+   font-family: 'Nunito Sans';
+   font-style: normal;
+   font-weight: 700;
+ }
+ 
+ h1 {
+   font-size: 64px;
+   line-height: 120%;
+ }
+ 
+ h2 {
+   font-size: 48px;
+   line-height: 65px;
+ }
+  h3{
+   font-size: 40px;
+   line-height: 120%;
+  }
+  h4 { 
+   font-size: 36px;
+   line-height: 49px;
+  }
+  h5{
+   font-size: 32px;
+   line-height: 120%;
+  }
+  h6 {
+   font-size: 24px;
+   line-height: 120%;
+  }
